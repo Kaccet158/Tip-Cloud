@@ -57,7 +57,7 @@ def get_remote_clipboard():
 
 # Test
 if __name__ == "__main__":
-    sync_clipboard("My data")
+    sync_clipboard("NNNN")
     print(f"Data from cloud: {get_remote_clipboard()}")
 
 
